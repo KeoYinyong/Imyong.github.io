@@ -1,0 +1,59 @@
+body{
+    /* background: #51e164; */
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #473529;
+    text-shadow: 3px 3px 3px #ababab;
+    background-color: rgb(138, 233, 138);
+    overflow: hidden;
+}
+.brand h2{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    color: green;
+    padding-top: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-shadow: 1px 10px 10px rgb(2, 108, 2);
+}
+.box-search button{
+    padding: 0;
+    border: none;
+    margin-left: 50px;
+    height: 28px;
+    width: 35px;
+    float: right;
+}
+.box-search input{
+    margin-top: 5px;
+}
+
+.box-search button, input{
+    margin: 5px ;
+    float: right;
+    margin-right: 5px;    
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100vh;
+    list-style: none;
+    position: fixed;
+    background-color:#abababcd;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+}
+li:hover{
+    background-color: gray;
+}

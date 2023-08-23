@@ -1,0 +1,47 @@
+.signIn{
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(117, 198, 233, 0.482);
+    box-sizing: border-box;
+    padding: 5px 30px;
+}
+input, select{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.create{
+    margin: 40px 0;
+}
+.create h5{
+    width: 100%;
+    height: auto;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+
+}
+button{
+    background-color: rgba(0, 60, 255, 0.747);
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    float: right;
+}
+button:hover{
+    background-color: rgba(0, 60, 255, 0.475);
+}
+select:focus{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}

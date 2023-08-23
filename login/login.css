@@ -1,0 +1,43 @@
+
+.create{
+    margin: 40px 0;
+}
+.create h5{
+    width: 100%;
+    height: auto;
+    background-color: greenyellow;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+.login{
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(117, 198, 233, 0.482);
+    box-sizing: border-box;
+}
+input{
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    padding: 15px;
+    margin: 15px 5px;
+    float: right;
+    border: none;
+    background-color:rgba(0, 60, 255, 0.747);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgba(0, 60, 255, 0.475);
+}
+input:focus{
+    outline: none;
+}

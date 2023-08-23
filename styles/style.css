@@ -1,0 +1,76 @@
+﻿body{
+    /* background: #51e164; */
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #473529;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+    color: green;
+}
+#logo h2{
+    text-align: center;
+    text-transform:uppercase; 
+}
+#logo span{
+    color: green;
+}
+#navigation{
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+    padding-top: 5px;
+    background-color:#b4c6d3;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box-search button{
+    padding: 0;
+    border: none;
+    margin-left: 50px;
+    height: 28px;
+    width: 35px;
+    float: right;
+}
+.box-search input{
+    margin-top: 5px;
+}
+.box-search button, input{
+    margin: 5px ;
+    float: right;
+    margin-right: 5px;
+    
+}
+.signUp ul{
+    list-style: none;
+    overflow: hidden;
+}
+.signUp ul li{
+    float: left;
+}
+.signUp ul li a{
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(75, 65, 224, 0.623);
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+#menu{
+    padding: 3px;
+    background-color:#b4c6d3;
+    border: none;
+}
+#banner img{
+    width: 100%;
+    
+}
+#slideebar{
+    margin-top: 20px;
+    margin-bottom:10px;
+}

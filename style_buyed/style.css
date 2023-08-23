@@ -1,0 +1,91 @@
+body{
+    background-color: #51e164;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo {
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border-bottom: 1px solid #473529;
+    text-shadow: 3px 3px 3px #ababab;
+    background-color: rgb(138, 233, 138);
+    overflow: hidden;
+}
+.brand h2{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    color: green;
+    padding-top: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-shadow: 1px 10px 10px rgb(2, 108, 2);
+}
+.box-search button{
+    padding: 0;
+    border: none;
+    margin-left: 50px;
+    height: 28px;
+    width: 35px;
+    float: right;
+}
+.box-search input{
+    margin-top: 5px;
+}
+
+.box-search button, input{
+    margin: 5px ;
+    float: right;
+    margin-right: 5px;    
+}
+.menu{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(35, 189, 117);
+    overflow: hidden;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.menu ul li:nth-child(1){
+    background-color: green;
+}
+.menu ul li:hover{
+    background-color: rgba(128, 128, 128, 0.438);
+}
+.buy{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    background-color: #ababab;
+    background-image: url();
+}
+.buy img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 350px;
+    align-items: center;
+    /* border-radius: 50px; */
+    float: left;
+}
+.caption{
+    width: 300px;
+    height: 200px;
+    margin: 10px 30px;
+    background-color: white;
+    
+    float: left;
+}
