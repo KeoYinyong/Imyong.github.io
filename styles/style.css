@@ -1,76 +1,174 @@
-﻿body{
-    /* background: #51e164; */
-    margin: 0;
-    padding: 0;
+﻿:root {
+  --primary-color: #4caf50;
+  --secondary-color: #45a049;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+  --card-background: #fff;
 }
-#logo {
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--card-background);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+#logo h1 {
+  font-family: "Sofia", cursive;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.box-search {
+  display: flex;
+  align-items: center;
+}
+
+.box-search input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 1rem;
+}
+
+.box-search button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.box-search button img {
+  width: 20px;
+  height: 20px;
+}
+
+.sign-up {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+
+#banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#menu {
+  padding: 2rem;
+  text-align: center;
+}
+
+#menu h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.menu-item {
+  background-color: var(--card-background);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.menu-item .btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item .btn:hover {
+  background-color: var(--secondary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  #navigation {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .box-search {
     width: 100%;
-    height: auto;
-    border-bottom: 2px solid #473529;
-    font-family: "Sofia", sans-serif;
-    font-size: 30px;
-    text-shadow: 3px 3px 3px #ababab;
-    color: green;
-}
-#logo h2{
-    text-align: center;
-    text-transform:uppercase; 
-}
-#logo span{
-    color: green;
-}
-#navigation{
+  }
+
+  .box-search input {
+    flex-grow: 1;
+  }
+
+  .sign-up {
     width: 100%;
-    height: auto;
-    padding-bottom: 0;
-    padding-top: 5px;
-    background-color:#b4c6d3;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-.box-search button{
-    padding: 0;
-    border: none;
-    margin-left: 50px;
-    height: 28px;
-    width: 35px;
-    float: right;
-}
-.box-search input{
-    margin-top: 5px;
-}
-.box-search button, input{
-    margin: 5px ;
-    float: right;
-    margin-right: 5px;
-    
-}
-.signUp ul{
-    list-style: none;
-    overflow: hidden;
-}
-.signUp ul li{
-    float: left;
-}
-.signUp ul li a{
-    display: block;
-    text-decoration: none;
-    margin-left: 10px;
-    background-color: rgba(75, 65, 224, 0.623);
-    color: white;
-    padding: 5px;
-    margin-top: 5px;
-}
-#menu{
-    padding: 3px;
-    background-color:#b4c6d3;
-    border: none;
-}
-#banner img{
-    width: 100%;
-    
-}
-#slideebar{
-    margin-top: 20px;
-    margin-bottom:10px;
+    justify-content: space-between;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
 }
